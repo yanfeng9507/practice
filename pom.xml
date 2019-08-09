@@ -13,6 +13,7 @@
     <modules>
         <module>spider</module>
         <module>leetcode</module>
+        <module>design-pattern</module>
     </modules>
 
     <parent>
