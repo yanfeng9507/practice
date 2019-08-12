@@ -1,5 +1,7 @@
 package cn.xiaoyanol.practice.design.pattern.中介者模式;
 
+import lombok.Data;
+
 /**
  * Created with IntelliJ IDEA.
  * Description: 抽象中介者
@@ -8,6 +10,7 @@ package cn.xiaoyanol.practice.design.pattern.中介者模式;
  * @Date: 2019-08-09
  * @Time: 下午2:34
  */
+@Data
 public abstract class AbstractMediator {
     protected  Purchase purchase;
 
