@@ -73,7 +73,7 @@ public class Test {
 //
 //            //将实体的内容转换为字符串
 //            String html = EntityUtils.toString(entity, "UTF-8");
-//            Document document = Jsoup.parse(html);
+//            Document document = Jsoup.enums(html);
 //            Elements elements = document.getElementsByClass("img");
 //            Elements rows = elements.select("li");
 //
